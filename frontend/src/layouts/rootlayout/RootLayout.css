@@ -1,0 +1,12 @@
+.root_layout {
+  padding: 1.6rem 6.4rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.root_layout > main {
+  overflow: hidden;
+  flex: 1;
+  font-size: 62.5%;
+}
