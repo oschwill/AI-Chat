@@ -1,0 +1,15 @@
+.login {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .login .cl-rootBox,
+.login .cl-rootBox * {
+  font-size: 1.6rem !important;
+}
+
+.login .cl-rootBox .cl-cardBox {
+  width: 100%;
+} */

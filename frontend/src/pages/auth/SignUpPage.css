@@ -1,0 +1,15 @@
+.signup {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .signup .cl-rootBox,
+.signup .cl-rootBox * {
+  font-size: 1.6rem !important;
+}
+
+.signup .cl-rootBox .cl-cardBox {
+  width: 100%;
+} */
