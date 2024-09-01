@@ -1,15 +1,13 @@
 /* CSS */
-import { useAuth } from '@clerk/clerk-react';
 import './DashBoardLayout.css';
 
-import { Outlet, useNavigate } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { useEffect } from 'react';
 import LoadingSpinner from '../../components/general/LoadingSpinner';
+import { useAuthContext } from '../../context/auth/AuthContext';
 
 const DashBoardLayout = () => {
-  const { userId, isLoaded } = useAuth();
-
-  const navigate = useNavigate();
+  const { userId, isLoaded, navigate } = useAuthContext();
 
   useEffect(() => {
     // Checken ob wir eingeloggt sind, falls nicht dann redirtecten zu sign in Page
